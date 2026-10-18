@@ -5,17 +5,8 @@ A multi-tier hierarchical network lab simulating the operational network archite
 ---
 
 ## Network Architecture Overview
+<img width="365" height="429" alt="Screenshot 2026-10-18 at 11 02 10 pm" src="https://github.com/user-attachments/assets/78f6caa0-66f2-454c-b1c7-ee3f2a8bb78c" />
 
-```text
- [ R1-KingPower-Edge ] (Router Gateway / Inter-VLAN Routing)
-          | (802.1Q Trunk)
- [ DSW1-KingPower-Core ] (Distribution / Core Aggregation Switch)
-          | (802.1Q Trunk)
- [ SW1-KingPower-Concourse ] (Access Switch)
-          | (Access Port - VLAN 20)<img width="383" height="437" alt="Screenshot 2026-10-18 at 11 00 53 pm" src="https://github.com/user-attachments/assets/ba86ecc2-2268-4b34-9a42-b4ec47a34ca5" />
-
- [ PC1-Fan-Workstation ] (Public Fan Wi-Fi Terminal)
-```
 
 ---
 
