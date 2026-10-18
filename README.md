@@ -37,11 +37,11 @@ Configures virtual subinterfaces on a single physical port to provide inter-VLAN
 ```text
 interface g0/0
  no shutdown
-!
+
 interface g0/0.10
  encapsulation dot1Q 10
  ip address 192.168.10.1 255.255.255.0
-!
+
 interface g0/0.20
  encapsulation dot1Q 20
  ip address 192.168.20.1 255.255.255.0
@@ -55,12 +55,12 @@ vlan 10
  name Admin-Operations
 vlan 20
  name Fan-Wi-Fi
-!
+
 interface g0/1
  switchport trunk encapsulation dot1q
  switchport mode trunk
  no shutdown
-!
+
 interface g0/2
  switchport trunk encapsulation dot1q
  switchport mode trunk
@@ -75,12 +75,12 @@ vlan 10
  name Admin-Operations
 vlan 20
  name Fan-Wi-Fi
-!
+
 interface f0/1
  switchport mode access
  switchport access vlan 20
  no shutdown
-!
+
 interface g0/1
  switchport mode trunk
  no shutdown
