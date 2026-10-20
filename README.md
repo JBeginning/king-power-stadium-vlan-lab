@@ -1,4 +1,4 @@
-https://pingmynetwork.com/sandbox 
+[PingMyNetwork Sandbox Challenge](https://pingmynetwork.com/sandbox )
 
 # King Power Stadium VLAN Segmentation Lab
 
