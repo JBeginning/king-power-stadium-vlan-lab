@@ -1,3 +1,5 @@
+https://pingmynetwork.com/sandbox 
+
 # King Power Stadium VLAN Segmentation Lab
 
 A multi-tier hierarchical network lab simulating the operational network architecture of King Power Stadium. This project demonstrates core enterprise networking principles by implementing VLAN segmentation, 802.1Q trunking, and Router-on-a-Stick routing to isolate public fan traffic from administrative operations.
